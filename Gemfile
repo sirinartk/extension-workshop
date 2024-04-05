@@ -37,4 +37,4 @@ gem 'uglifier', '~> 4.1', '>= 4.1.20'
 
 # Automatically adds a target="_blank" rel="noopener noreferrer" attribute 
 # to all external links in Jekyll's content 
-gem 'jekyll-target-blank'
+gem 'jekyll-target-blank', '>= 2.0.0'
