@@ -17,7 +17,7 @@ source "https://rubygems.org"
 group :jekyll_plugins do
   # gem 'jekyll-feed', '~> 0.11'
   gem 'jekyll-assets', '~> 3.0'
-  gem 'jekyll-seo-tag', '~> 2.5.0'
+  gem 'jekyll-seo-tag', '~> 2.6.0'
   gem 'jekyll_pages_api' # --> for local development of plugin add this --> , :path => '../jekyll_pages_api'
   # gem 'github-pages', '~> 193'
 end
@@ -37,4 +37,4 @@ gem 'uglifier', '~> 4.1', '>= 4.1.20'
 
 # Automatically adds a target="_blank" rel="noopener noreferrer" attribute 
 # to all external links in Jekyll's content 
-gem 'jekyll-target-blank'
+gem 'jekyll-target-blank', '>= 2.0.0'
